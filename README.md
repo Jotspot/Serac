@@ -29,7 +29,8 @@ Built for **Grizzly Hacks II (February 2026)** with the mission to create softwa
 ## 📸 Preview
 
 <p align="center">
-  <img width="454" height="661" alt="Serac Screenshot" src="https://github.com/user-attachments/assets/4969e3c2-d66c-4d36-ae03-4b1119e1511e" />
+  <img src="https://github.com/user-attachments/assets/4969e3c2-d66c-4d36-ae03-4b1119e1511e" width="300" alt="Serac Popup Screenshot" />
+  <img src="https://github.com/user-attachments/assets/45d77a1d-bf10-48c3-a916-a4c323a743dd" width="600" alt="Serac Blocked Page" />
 </p>
 
 ---
@@ -40,6 +41,8 @@ Built for **Grizzly Hacks II (February 2026)** with the mission to create softwa
 - **Focus**, **Short Break**, and **Long Break** phases
 - Start, pause, and restart controls
 - Automatic phase transitions
+- Configurable number of focus sessions before a long break
+- **Notifications** when a phase changes, so you always know when to focus or take a break
 - Configurable number of focus sessions before a long break
 
 ### ⚙️ Customization
