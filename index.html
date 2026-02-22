@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!--Window size-->
+    <style>
+        body{
+            width: 425px;
+            height: 600px;
+            margin: 0;
+            overflow: hidden;
+        }
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <!--main div (everything in this div)-->
+    <div class="glass center-div main-div">
+        <div class="progress-container">
+                <svg viewBox="155 0 155 140" preserveAspectRatio="xMidYMid meet">
+                    <defs>
+                        <linearGradient id="myGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#07172b" stop-opacity="1" />
+                            <stop offset="100%" stop-color="#07172b" stop-opacity="0.5" />
+                        </linearGradient>
+                    </defs>
+                    <path class="progress-back" d="M175,10 L 265,10 Q290,10 290,35 L290,125" />
+                    <path class="progress-stuff" style="--percent: 150" d="M175,10 L 265,10 Q290,10 290,35 L290,125" />
+                </svg>
+                <div class="arctext">
+                    <p id="countdown">25:00</p>
+                    <p id="phase">Focus</p>
+                </div>
+                <div class="center-div togglebuttondiv">
+                <button class="togglebutton glass">Start</button>
+                <button id="restartButton" class="glass restartbutton" type="button">Restart</button>
+                </div> 
+        </div>
+        <section class="glass settings-panel">
+            <h2 class="settings-title">Settings</h2>
+
+            <label class="settings-row">
+                <span>Block sites during Focus</span>
+                <label class="switch">
+                    <input type="checkbox" id="toggleAutoBlockFocus">
+                    <span class="slider"></span>
+                </label>
+            </label>
+
+            <label class="settings-label" for="blockedSitesInput">Blocked Sites (one per line)</label>
+            <textarea id="blockedSitesInput" class="blocked-sites-input" spellcheck="false"></textarea>
+
+            <div class="settings-actions">
+                <button id="saveBlockedSites" class="glass settings-button" type="button">Save Sites</button>
+                <button id="resetBlockedSites" class="glass settings-button" type="button">Reset Defaults</button>
+            </div>
+
+            <h3 class="settings-subtitle">Customize Pomodoro Amounts</h3>
+            <div class="pomodoro-grid">
+                <label class="settings-inline">
+                    Focus (min)
+                    <input id="focusMinutesInput" type="number" min="1" step="1">
+                </label>
+                <label class="settings-inline">
+                    Short Break (min)
+                    <input id="shortBreakMinutesInput" type="number" min="1" step="1">
+                </label>
+                <label class="settings-inline">
+                    Long Break (min)
+                    <input id="longBreakMinutesInput" type="number" min="1" step="1">
+                </label>
+                <label class="settings-inline">
+                    Cycles before Long Break
+                    <input id="sessionsBeforeLongBreakInput" type="number" min="1" step="1">
+                </label>
+            </div>
+            <button id="savePomodoroSettings" class="glass settings-button" type="button">Save Pomodoro Settings</button>
+
+        
+        </section>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

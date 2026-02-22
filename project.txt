@@ -1,0 +1,7 @@
+There is a live server that automatically updates with the HTML. The link to the server is https://n1vq3db6-5500.asse.devtunnels.ms/.
+
+focus suite
+-pomodoro timer
+-distracting website blocker
+    -auto vlocks websites when pomodoro is active
+-
