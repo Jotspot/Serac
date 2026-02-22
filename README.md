@@ -111,4 +111,4 @@ Our goal is to foster greater independence, reduce frustration, and enhance digi
 ## 📄 License
 
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0).  
-See the [LICENSE](./LICENSE) file for details.
+See the [LICENSE](./LICENSE) file for details. 
