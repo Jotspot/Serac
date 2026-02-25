@@ -8,11 +8,18 @@
   A Pomodoro focus tool designed for people with ADHD and other neurodivergent individuals.
 </p>
 
+
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20For-Grizzly%20Hacks%20II-6C63FF?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Date-February%202026-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform-Chrome%20Extension-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/status-stable-success?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/gdicnjhlilbjppjaeieoieaeadlaipki" target="_blank">
+    <img  height="40" alt="installonchromewebstore" src="https://github.com/user-attachments/assets/57ef25ed-d699-4252-a18f-df583a68ea17" />
+  </a>
 </p>
 
 ---
